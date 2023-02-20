@@ -9,8 +9,8 @@ public class ConiferTree implements  Tree{
     }
 
     @Override
-    public String grow() {
-        return genericTree.toString();
+    public String grow(int growth) {
+        return genericTree+"Growth: "+growth;
     }
 
     @Override

@@ -1,5 +1,5 @@
 package tree;
 
 public interface Tree {
-    public String grow();
+    public String grow(int growth );
 }

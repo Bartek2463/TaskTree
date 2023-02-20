@@ -1,5 +1,5 @@
 package tree;
 
 public enum TreeTyp {
-    LEAFY, CONIFERS;
+    LEAFY, CONIFERS,FRUITY;
 }
