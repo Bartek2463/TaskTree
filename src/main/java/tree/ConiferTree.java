@@ -1,9 +1,10 @@
 package tree;
 
-public class LeafyTree implements Tree{
+public class ConiferTree implements  Tree{
+
     private GenericTree genericTree;
 
-    public LeafyTree(GenericTree genericTree) {
+    public ConiferTree(GenericTree genericTree) {
         this.genericTree = genericTree;
     }
 
@@ -14,7 +15,7 @@ public class LeafyTree implements Tree{
 
     @Override
     public String toString() {
-        return "LeafyTree{" +
+        return "ConiferTree{" +
                 "genericTree=" + genericTree +
                 '}';
     }
